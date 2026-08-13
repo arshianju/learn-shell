@@ -1,12 +1,19 @@
 # 1> : Redirect stdout to a file (overwrite)
 echo "Hello" 1>/tmp/output.txt
 echo "Hello" >/tmp/output1.txt
+cat /tmp/output.txt
+cat /tmp/output1.txt
+
+
 
 # 2> : Redirect stderr to a file (overwrite)
 ls /nonexistent 2>/tmp/error.txt
+cat /tmp/error.txt
+
 
 # &> : Redirect both stdout and stderr to a file (overwrite)
 ls /tmp /nonexistent &>/tmp/both.txt
+cat /tmp/both.txt
 
 # >> : Append to a file instead of overwrite
 echo "Line 1" > /tmp/append.txt
