@@ -6,4 +6,4 @@ ls /tmp &>/dev/null
 echo "Exit status of valid command: $?"
 
 ls /nonexistent &>/dev/null
-echo "Exit status of invalid command: $?
+echo "Exit status of invalid command: $?"
