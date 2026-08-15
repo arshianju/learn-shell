@@ -16,7 +16,7 @@ abc
 echo "b = $b"
 
 # code in catalogue.sh
-a=10
+a=20
 source common.sh
 sample
 echo b - $b
