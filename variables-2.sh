@@ -9,3 +9,9 @@ echo x - $x
 # y=100 bash script.sh
 echo y - $y
 
+# Way 3: Right hand side (positional arguments)
+echo "First Argument = $1"
+echo "Second Argument = $2"
+echo "All Arguments = $*"
+echo "No of Arguments = $#"
+
