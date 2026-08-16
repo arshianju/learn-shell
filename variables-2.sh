@@ -18,3 +18,10 @@ echo "No of Arguments = $#"
 # Way 4: read from user
 read -p 'Enter z: ' z
 
+# Command Substitution - store command output in variable
+DATE=$(date +%F)
+echo "Today is $DATE"
+
+# Arithmetic Substitution - evaluate math expressions
+SUM=$((10+20))
+echo "Sum = $SUM"
