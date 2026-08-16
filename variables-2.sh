@@ -15,3 +15,6 @@ echo "Second Argument = $2"
 echo "All Arguments = $*"
 echo "No of Arguments = $#"
 
+# Way 4: read from user
+read -p 'Enter z: ' z
+
