@@ -5,3 +5,7 @@
 # bash script.sh
 echo x - $x
 
+# Way 2: Left hand side of script
+# y=100 bash script.sh
+echo y - $y
+
