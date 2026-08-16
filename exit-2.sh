@@ -2,7 +2,7 @@
 
 # exit stops the script and returns the given status
 echo "Hello World"
-exit 1
+exit
 echo "This will not print"
 
 # Run this script, then check: echo $?
