@@ -18,3 +18,12 @@ sample2() {
 y=100 sample2
 y=200 sample2
 
+# Way 3: Right hand side (positional arguments)
+sample3() {
+  echo "First Argument = $1"
+  echo "Second Argument = $2"
+  echo "All Arguments = $*"
+  echo "No of Arguments = $#"
+}
+
+sample3 100 200 300
